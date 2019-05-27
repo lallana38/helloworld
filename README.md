@@ -16,3 +16,16 @@ MySQL
 学んだこと:
 indexアクションに書いた処理をビューに表示させるには、インスタンス変数が必要。
 rails g controllerというコマンドを使わずに実装できるようになることが大事。
+
+共同開発課題２　「Githubにアップした「Hello World」アプリをローカルにクローンして動作確認」
+やったこと：
+1. https://github.com/lallana38/helloworldのcloneordownloadボタンを押下して
+　　urlをコピーする
+2. ターミナルからデスクトップにgit clone https://github.com/lallana38/helloworld.gitを
+　　入力する
+3. デスクトップにできたhello worldアプリをrails sで立ち上げて確認する。
+
+学んだこと:
+クローンとは
+「リモートリポジトリにプッシュされて登録されているソースコードを自分のパソコンにコピーしてくること。
+他の人が書いたソースコードを自分のパソコンに持ってくることによって共同開発ができる。」
