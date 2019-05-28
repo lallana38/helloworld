@@ -41,6 +41,10 @@ rails g controllerというコマンドを使わずに実装できるように�
 5. https://github.com/lallana38/helloworld　に新しいブランチが作られるので
 　　「compare & pullrequest」を押下し、プルリクエストを作成
 6. 「Good Morningを追加しました。」と入力し、「create pullrequest」ボタンを押下
+7. コードレビュー後、「Merge pullrequest」を押下
+8. 「delete branch」でadd_good_morningブランチを削除
+9. ローカルリポジトリで、git checkout master
+   git pull origin master 
 
 学んだこと：
 プルリクエストとは
