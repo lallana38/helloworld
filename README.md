@@ -29,3 +29,20 @@ rails g controllerというコマンドを使わずに実装できるように�
 クローンとは
 「リモートリポジトリにプッシュされて登録されているソースコードを自分のパソコンにコピーしてくること。
 他の人が書いたソースコードを自分のパソコンに持ってくることによって共同開発ができる。」
+
+共同開発課題３　「「Hello World」アプリでブランチ作成・任意の変更を加える・コミット・プッシュ・プルリク」
+内容：　Hello WorldアプリにGood Morning!の文言を追加し、githubに反映させる。
+やったこと：
+1. git checkout -b "add_good_morning"で新しいブランチを作成する
+2. index.html.erbにGood Morning!を追加する
+3. git add .
+   git commit -m "add_good_morning"でローカルリポジトリにコミット（変更を記録）する
+4. git push origin add_good_morningを実行
+5. https://github.com/lallana38/helloworld　に新しいブランチが作られるので
+　　「compare & pullrequest」を押下し、プルリクエストを作成
+6. 「Good Morningを追加しました。」と入力し、「create pullrequest」ボタンを押下
+
+学んだこと：
+プルリクエストとは
+自分のパソコンで開発したソースコードをリモートリポジトリにプッシュした後に
+コードレビューを依頼すること・他の人にソースコードに変更があったことを通知すること
